@@ -16,6 +16,7 @@ public:
 	AGun();
 
 	/** Fires a projectile. */
+	UFUNCTION(BlueprintCallable, Category = "Fire")
 	void Fire();
 
 protected:
